@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iLearn - Learn Simple HTML in 30 Minutes</title>
+  <meta name="description" content="Learn Simple HTML in 30 Minutes with iLearn. A beginner-friendly HTML learning website.">
+  <meta name="author" content="Astha Singh">
+  <meta name="keywords" content="HTML, web development, iLearn, learn HTML">
+</head>
+<body>
+
+  <h1>Learn Simple HTML in 30 Minutes with iLearn</h1>
+
+  <blockquote>
+    <p>“Live as if you were to die tomorrow; learn as if you were to live forever.-by Mahatma Gandhi”</p>
+  </blockquote>
+
+  <h2>Topics</h2>
+  <ul>
+    <li><a href="https://www.w3schools.com/html/">About Html</a</li>
+    <li><a href="https://www.w3schools.com/html/html_elements.asp">Html Elements</a></li>
+    <li><a href="https://www.w3schools.com/html/html_editors.asp">Html Editors</a></li>
+    <!-- Add other topic links in a similar manner -->
+  </ul>
+
+  <section id="about_html">
+    <h3>About HTML</h3>
+    <p>HTML stands for (HyperText Markup Language) is the standard language for creating web pages and web applications.HTML describes the structure of a 
+    Web page.HTML consists of a series of elements.HTML elements tell the browser how to display the content.If you want to learn more about HTML, you can
+    visit the <a href="https://www.w3schools.com/html/">HTML Information Page</a>.</p>
+    <!-- Add code snippets and explanations for HTML and other topics -->
+  </section>
+  <section id="basic_tags">
+    <h3>Basic Tags</h3>
+    <p>The <!DOCTYPE html> declaration defines that this document is an HTML5 document.<html>tag <head>tag <body>tag</p>
+  </section>
+
+  <img src="C:\Users\Astha singh\Documents\OSSLABHOME\Lab4\html.png" alt="HTML Image Map" width="500" height="300" usemap="#htmlmap">
+  <map name="htmlmap">
+    <!-- Define clickable areas on the image -->
+    <!-- Example: <area shape="rect" coords="x1,y1,x2,y2" alt="Area Description" href="#about_html"> -->
+  </map>
+
+  <footer>
+    <hr>
+    <p>last updated on 3,october 2023</p>
+    <p>Webmaster: <a href="mailto:prolifictalen.a@gmail.com">Astha Singh</a></p>
+    <p>copyright 2023 asthaSingh</p>
+  </footer>
+
+</body>
+</html>
